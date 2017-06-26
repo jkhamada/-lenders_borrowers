@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 1
+  lender: one
+  borrowers: 
+
+two:
+  amount: 1
+  lender: two
+  borrowers: 

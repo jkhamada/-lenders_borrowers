@@ -1,0 +1,10 @@
+<h1>Login</h1>
+
+<form class="" action="/login" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"><br>
+  <input type="text" name="email" placeholder="Email"><br>
+  <input type="password" name="password" placeholder="Password"><br>
+  <input type="submit" value="Login"><br>
+</form>
+
+<a href='/borrowers/new'>Click Here To Register</a>

@@ -1,0 +1,33 @@
+
+    		<form action = '/lenders' method = 'post'>
+          <fieldset>
+            <legend><h1>Lender</h1></legend>
+          <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    			 <input type = 'text' name = 'lender[first_name]' placeholder="First Name"><br>
+    			 <input type = 'text' name = 'lender[last_name]' placeholder="Last Name"><br>
+    			 <input type = 'text' name = 'lender[email]' placeholder="Email"><br>
+           <input type="text" name="lender[password]" placeholder="Password"><br>
+           <input type = 'text' name = 'lender[money]' placeholder="Money"><br>
+    			 <input type = 'submit' value = 'Register'><br>
+           </fieldset>
+    		</form>
+        <a href="/login">Already a Member?</a>
+
+
+    		<form action = '/borrowers' method = 'post'>
+          <fieldset>
+            <legend><h1>Borrower</h1></legend>
+          <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    			 <input type = 'text' name = 'borrower[first_name]' placeholder="First Name"><br>
+    			 <input type = 'text' name = 'borrower[last_name]' placeholder="Last Name"><br>
+    			 <input type = 'text' name = 'borrower[email]' placeholder="Email"><br>
+           <input type ="text" name = "borrower[password]" placeholder="Password"><br>
+           <input type = 'text' name = 'borrower[purpose]' placeholder="Need Money For"><br>
+           <input type = 'text' name = 'borrower[description]' placeholder="Description"><br>
+           <input type = 'text' name = 'borrower[money]' placeholder="Amount Needed"><br>
+
+
+    			 <input type = 'submit' value = 'Register'><br>
+           </fieldset>
+    		</form>
+        <a href="/login">Already a Member?</a>
